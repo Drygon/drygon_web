@@ -4243,7 +4243,7 @@ react-redux:
     lodash-es "^4.2.0"
     loose-envify "^1.1.0"
 
-react-router-dom@next:
+react-router-dom@4.0.0-beta.6:
   version "4.0.0-beta.6"
   resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-4.0.0-beta.6.tgz#bdbd8f2fea3def52970735778db03b24cc082a02"
   dependencies:
