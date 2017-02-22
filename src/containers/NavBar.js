@@ -8,6 +8,7 @@ import { About, Contact, Home, Drawings, Drygon,
   Training, Services, Wonders, Stories, Designs,
   RouteWithSubRoutes } from '../components'
 import logo from '../images/logo_name.png'
+
 const routes = [
   {
     path: '/',
@@ -58,7 +59,7 @@ const NavBar = () => (
   <Router>
     <div>
       <Menu stackable fluid secondary>
-        <Menu.Item><Link to="/"><Image alt="logo" src={logo} size="tiny" /></Link></Menu.Item>
+        <Menu.Item><Link to="/"><Image id="logo" alt="logo" src={logo} size="tiny" /></Link></Menu.Item>
         <Dropdown pointing item simple text="About Us">
           <Dropdown.Menu>
             <Dropdown.Item><Link to="/about">About Us</Link></Dropdown.Item>

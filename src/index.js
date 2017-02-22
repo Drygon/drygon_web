@@ -8,7 +8,7 @@ import rootReducer from './rootReducer';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
-import './assets/css/main.css';
+import './index.css';
 
 const store = createStore(
   rootReducer,

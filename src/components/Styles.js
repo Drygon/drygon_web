@@ -1,5 +1,5 @@
 export default {
-   universal: {
+  universal: {
 
   },
   home: {

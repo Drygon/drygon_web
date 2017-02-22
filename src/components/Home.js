@@ -6,7 +6,7 @@ import logo from '../images/logo_origin.png'
 const Home = () => (
 
   <div id="banner-wrapper">
-  <section id="banner">
+  <section id="banner" >
     <Grid container verticalAlign="middle" columns={2} centered>
         <Grid.Row >
           <Grid.Column width={4}>
