@@ -1218,10 +1218,10 @@ You can find instructions in [Deploying React with Zero Configuration](https://b
 
 Sometimes `npm run build` works locally but fails during deploy via Heroku with an error like this:
 
-```  
+```
 remote: Failed to create a production build. Reason:
 remote: Module not found: Error: Cannot resolve 'file' or 'directory'
-MyDirectory in /tmp/build_1234/src  
+MyDirectory in /tmp/build_1234/src
 ```
 
 This means you need to ensure that the lettercase of the file or directory you `import` matches the one you see on your filesystem or on GitHub.
@@ -1354,3 +1354,6 @@ Please refer to [this section](#resolving-module-not-found-error-cannot-resolve-
 ## Something Missing?
 
 If you have ideas for more “How To” recipes that should be on this page, [let us know](https://github.com/facebookincubator/create-react-app/issues) or [contribute some!](https://github.com/facebookincubator/create-react-app/edit/master/packages/react-scripts/template/README.md)
+=======
+# drygon_web
+>>>>>>> 7d5d6e1067eb4ce45a83df78e07c3a165bcd7ade
