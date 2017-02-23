@@ -20,6 +20,7 @@
     "redux": "^3.6.0",
     "redux-devtools-extension": "^2.13.0",
     "redux-thunk": "^2.2.0",
+    "semantic-ui-icon": "^2.2.9",
     "semantic-ui-react": "^0.65.0"
   },
   "scripts": {

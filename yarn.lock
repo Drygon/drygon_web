@@ -4613,6 +4613,10 @@ sax@^1.2.1, sax@~1.2.1:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.2.tgz#fd8631a23bc7826bef5d871bdb87378c95647828"
 
+semantic-ui-icon:
+  version "2.2.9"
+  resolved "https://registry.yarnpkg.com/semantic-ui-icon/-/semantic-ui-icon-2.2.9.tgz#6872912870fff1f0320c457435bdaeca30c109e5"
+
 semantic-ui-react:
   version "0.65.0"
   resolved "https://registry.yarnpkg.com/semantic-ui-react/-/semantic-ui-react-0.65.0.tgz#82dd4588d6d707d273611927c320fbf5db0fe0e9"
