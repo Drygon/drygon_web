@@ -2441,44 +2441,32 @@
 				#main > .row {
 					padding: 2em 0 2em 0;
 				}
-     /* Quotation */
-
-     .quote-box {
+/* quote*/
+    .quote-box {
        border-radius: 3px;
        position: relative;
        margin: 8% auto auto auto;
-       width:450px;
        padding: 40px 50px;
-       display:table;
-     }
-       .quote-text {
+       font-family: 'Raleway', sans-serif;
+    }
+     .quote-text {
          text-align: center;
-         width: 450px;
          height: auto;
          clear:both;
          font-weight:500;
          font-size:1.75em;
          font-family: 'Raleway', sans-serif;
        }
-        .quote-left{
+      .quote-left{
            font-size: 1.0em;
            margin-right: 0.4em;
          }
-         .quote-author {
-           width: 450px;
-           height: auto;
-           clear: both;
-           padding-top: 20px;
-           font-size: 1em;
-           text-align:right;
-         }
-         .button {
-           font-size: 0.85em;
-           margin-top: 30px;
+     .quote-right{
+           font-size: 1.0em;
+           margin-left: 0.4em;
          }
 
-
-		/* Footer */
+  /* Footer */
 
 			#footer {
 				padding: 4em 20px 2em 20px;

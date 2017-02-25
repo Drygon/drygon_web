@@ -1,6 +1,7 @@
 import React from 'react'
-import { Grid, Segment } from 'semantic-ui-react'
-import { PhotoPage, QuotationPage } from '../components'
+import { Grid } from 'semantic-ui-react'
+import PhotoPage from './PhotoPage'
+import QuotationPage from './QuotationPage'
 
 const HomeBody = () => (
   <div id="main" className="container">
