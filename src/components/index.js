@@ -1,7 +1,6 @@
 import About from './About'
 import Contact from './Contact'
 import Designs from './Designs'
-import Drawings from './Drawings'
 import Drygon from './Drygon'
 import Home from './Home'
 import Photos from './Photos'
@@ -16,7 +15,6 @@ export {
   About,
   Contact,
   Designs,
-  Drawings,
   Drygon,
   Home,
   Photos,

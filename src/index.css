@@ -1698,6 +1698,10 @@
 				border-color: #616763;
 			}
 
+/*grid*/
+.ui .grid {
+  height: 100%;
+}
 /* Footer */
 
 	#footer a {

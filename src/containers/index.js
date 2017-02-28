@@ -1,9 +1,6 @@
-import Footer from './Footer'
-import HomeBody from './HomeBody'
+import HomePage from './HomePage'
 import NavBar from './NavBar'
-
 export {
-  HomeBody,
-  Footer,
+  HomePage,
   NavBar
 }

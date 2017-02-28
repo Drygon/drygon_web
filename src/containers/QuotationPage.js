@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import { Container, Header, Icon, Label, Segment } from 'semantic-ui-react'
-import database from '../actions/database'
+import { Icon, Header, Label, Segment } from 'semantic-ui-react'
+import { database } from '../actions/database'
 
 const getSelect = (total) => {
   return Math.floor(Math.random() * total + 1)
@@ -46,19 +46,13 @@ class QuotationPage extends Component {
     const { author, category, text, loading } = this.state
 
     return (
-      <Segment stacked loading={loading} >
-        <Header size="small" textAlign="center">{category}</Header>
-        <Container>
-          <Container text>
-            <Icon name="left quote" />
-            {text}
-            <Icon name="right quote" />
-          </Container>
-          <Container textAlign="right">
-            <Icon name="minus" /> {author}
-          </Container>
-        </Container>
+      <Segment loading={loading} >
+          <Header as="h4" textAlign="center">{category}</Header>
 
+        <Segment textAlign="left">
+          <Icon name="left quote" />{text}
+          <Icon name="minus" /> {author}
+        </Segment>
         <Label attached="bottom">Food for Thought </Label>
       </Segment>
     )

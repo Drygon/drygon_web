@@ -4,7 +4,9 @@ import {
   Link
 } from 'react-router-dom'
 import { Menu, Dropdown, Image } from 'semantic-ui-react'
-import { About, Contact, Home, Drawings, Drygon,
+import DrawingsPage from './DrawingsPage'
+import HomePage from './HomePage'
+import { About, Contact, Drygon,
   Training, Services, Wonders, Stories, Designs,
   RouteWithSubRoutes } from '../components'
 import logo from '../images/logo_name.png'
@@ -13,7 +15,7 @@ const routes = [
   {
     path: '/',
     exact: true,
-    component: Home
+    component: HomePage
   },
   {
     path: '/about',
@@ -31,7 +33,7 @@ const routes = [
   },
   {
     path: '/drawings',
-    component: Drawings
+    component: DrawingsPage
   },
   {
     path: '/training',
