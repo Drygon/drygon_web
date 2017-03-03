@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import { Icon, Header, Label, Segment } from 'semantic-ui-react'
-import { database } from '../actions/database'
+import { Icon, Label, Grid, Segment } from 'semantic-ui-react'
+import { database } from '../database/database'
 
 const getSelect = (total) => {
   return Math.floor(Math.random() * total + 1)
 }
 
-class QuotationPage extends Component {
+class QuotationSnap extends Component {
 
   constructor() {
     super()
@@ -46,19 +46,19 @@ class QuotationPage extends Component {
     const { author, category, text, loading } = this.state
 
     return (
-      <Segment loading={loading} >
-          <Header as="h4" textAlign="center">{category}</Header>
-
-        <Segment textAlign="left">
-          <Icon name="left quote" />{text}
-          <Icon name="minus" /> {author}
-        </Segment>
-        <Label attached="bottom">Food for Thought </Label>
-      </Segment>
+      <Grid.Column >
+          <Segment className="quotation" textAlign="center" loading={loading}>
+          <Label attached="top">Food for Thought - {category} </Label>
+            <Icon name="left quote" />{text}
+            <br />
+            <br />
+              <Icon name="minus" /> {author}
+          </Segment>
+      </Grid.Column>
     )
   }
 }
 
 
 
-export default QuotationPage
+export default QuotationSnap

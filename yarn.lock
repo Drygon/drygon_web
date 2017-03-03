@@ -1202,6 +1202,25 @@ clone@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/clone/-/clone-1.0.2.tgz#260b7a99ebb1edfe247538175f783243cb19d149"
 
+cloudinary:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/cloudinary/-/cloudinary-1.7.1.tgz#26e6019b8b81f012848165460701d9c266e244db"
+  dependencies:
+    lodash "3.10.x"
+    q "1.4.x"
+
+cloudinary-core@^2.1.2:
+  version "2.1.9"
+  resolved "https://registry.yarnpkg.com/cloudinary-core/-/cloudinary-core-2.1.9.tgz#c2358fd4d6b51292e14b123915a35f03d00a4d7e"
+  dependencies:
+    lodash ">=3.0"
+
+cloudinary-react:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/cloudinary-react/-/cloudinary-react-1.0.2.tgz#0fa97932db25b91d4b035ff33b0e09c0796dfb55"
+  dependencies:
+    cloudinary-core "^2.1.2"
+
 co@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
@@ -3366,9 +3385,13 @@ lodash.uniq@^4.3.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
 
-lodash@^4.0.0, lodash@^4.14.0, lodash@^4.15.0, lodash@^4.16.4, lodash@^4.17.2, lodash@^4.2.0, lodash@^4.2.1, lodash@^4.3.0, "lodash@>=3.5 <5":
+lodash@^4.0.0, lodash@^4.14.0, lodash@^4.15.0, lodash@^4.16.4, lodash@^4.17.2, lodash@^4.2.0, lodash@^4.2.1, lodash@^4.3.0, lodash@>=3.0, "lodash@>=3.5 <5":
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
+
+lodash@3.10.x:
+  version "3.10.1"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
 
 longest@^1.0.1:
   version "1.0.1"
@@ -3564,6 +3587,10 @@ node-emoji@^1.4.1:
   resolved "https://registry.yarnpkg.com/node-emoji/-/node-emoji-1.5.1.tgz#fd918e412769bf8c448051238233840b2aff16a1"
   dependencies:
     string.prototype.codepointat "^0.2.0"
+
+node-ensure@^0.0.0:
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/node-ensure/-/node-ensure-0.0.0.tgz#ecae764150de99861ec5c810fd5d096b183932a7"
 
 node-fetch@^1.0.1:
   version "1.6.3"
@@ -3859,6 +3886,12 @@ path-type@^1.0.0:
 pbkdf2-compat@2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/pbkdf2-compat/-/pbkdf2-compat-2.0.1.tgz#b6e0c8fa99494d94e0511575802a59a5c142f288"
+
+pdfjs-dist@1.7.235:
+  version "1.7.235"
+  resolved "https://registry.yarnpkg.com/pdfjs-dist/-/pdfjs-dist-1.7.235.tgz#def2abb3bed17a3c1b3816c30b02c4b0e3323dd2"
+  dependencies:
+    node-ensure "^0.0.0"
 
 pify@^2.0.0:
   version "2.3.0"
@@ -4241,7 +4274,7 @@ q-io@1.13.2:
     qs "^1.2.1"
     url2 "^0.0.0"
 
-q@^1.0.1, q@^1.1.2, q@1.4.1:
+q@^1.0.1, q@^1.1.2, q@1.4.1, q@1.4.x:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/q/-/q-1.4.1.tgz#55705bcd93c5f3673530c2c2cbc0c2b3addc286e"
 
@@ -4315,6 +4348,12 @@ react-dom@^15.4.2:
     fbjs "^0.8.1"
     loose-envify "^1.1.0"
     object-assign "^4.1.0"
+
+react-pdf-js:
+  version "1.0.33"
+  resolved "https://registry.yarnpkg.com/react-pdf-js/-/react-pdf-js-1.0.33.tgz#d13a5c19d7095b5f1eff35ff058f7c3f8dc75714"
+  dependencies:
+    pdfjs-dist "1.7.235"
 
 react-redux:
   version "5.0.2"
