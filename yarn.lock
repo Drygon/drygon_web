@@ -1202,13 +1202,6 @@ clone@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/clone/-/clone-1.0.2.tgz#260b7a99ebb1edfe247538175f783243cb19d149"
 
-cloudinary:
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/cloudinary/-/cloudinary-1.7.1.tgz#26e6019b8b81f012848165460701d9c266e244db"
-  dependencies:
-    lodash "3.10.x"
-    q "1.4.x"
-
 cloudinary-core@^2.1.2:
   version "2.1.9"
   resolved "https://registry.yarnpkg.com/cloudinary-core/-/cloudinary-core-2.1.9.tgz#c2358fd4d6b51292e14b123915a35f03d00a4d7e"
@@ -3389,10 +3382,6 @@ lodash@^4.0.0, lodash@^4.14.0, lodash@^4.15.0, lodash@^4.16.4, lodash@^4.17.2, l
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
-lodash@3.10.x:
-  version "3.10.1"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
-
 longest@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/longest/-/longest-1.0.1.tgz#30a0b2da38f73770e8294a0d22e6625ed77d0097"
@@ -4274,7 +4263,7 @@ q-io@1.13.2:
     qs "^1.2.1"
     url2 "^0.0.0"
 
-q@^1.0.1, q@^1.1.2, q@1.4.1, q@1.4.x:
+q@^1.0.1, q@^1.1.2, q@1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/q/-/q-1.4.1.tgz#55705bcd93c5f3673530c2c2cbc0c2b3addc286e"
 

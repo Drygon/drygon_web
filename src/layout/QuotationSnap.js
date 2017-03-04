@@ -1,10 +1,7 @@
 import React, { Component } from 'react'
 import { Icon, Label, Grid, Segment } from 'semantic-ui-react'
 import { database } from '../database/database'
-
-const getSelect = (total) => {
-  return Math.floor(Math.random() * total + 1)
-}
+import { getSelect } from '../util'
 
 class QuotationSnap extends Component {
 

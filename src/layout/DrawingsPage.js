@@ -26,6 +26,10 @@ componentWillMount() {
   ))
 }
 
+componentWillUnmount () {
+  storage.ref('Drawings').off()
+}
+
   render() {
       return (
       <div id="drawing">

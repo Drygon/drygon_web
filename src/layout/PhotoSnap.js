@@ -1,20 +1,52 @@
-import React from 'react'
-import { Label, Segment } from 'semantic-ui-react'
-import { Image, CloudinaryContext, Transformation } from 'cloudinary-react'
-import { cloudinaryConfig } from '../database/database'
+import React, { Component } from 'react'
+import { Image, Label,Segment } from 'semantic-ui-react'
+import { storage } from '../database/database'
+import { getSelect } from '../util'
 
-const publicID = "Winter-snow-red-feather-bird_2560x1440_byzkiu"
-const cloudName = cloudinaryConfig.cloud_name
+const selected = getSelect(341).toString()
+const storageRef = storage.ref()
+const filePath = "Images/" + selected + ".jpg"
 
-const PhotoSnap = () => (
-  <Segment textAlign="center">
+class PhotoSnap extends Component {
+  constructor(props) {
+    super(props)
+    this.state = ({
+      url: ""
+    })
+  }
+
+
+  componentWillMount() {
+    this.setState({
+      loading: true
+    })
+
+  const imageFile = storageRef.child(filePath)
+   imageFile.getDownloadURL().then((url) => {
+    if (url !== '') {
+      this.setState({
+        url: url
+      })
+    }
+  }
+  ).catch((error)=> (
+    console.log(error)
+  ))
+  }
+  componentWillUnmount() {
+    storage.ref("Images").off()
+  }
+
+render(){
+
+  return (
+  <Segment textAlign="center" clearing>
     <Label attached="top">Photo A Day</Label>
-    <CloudinaryContext cloudName={cloudName}>
-      <Image publicId={publicID}>
-        <Transformation width="300" crop="scale" />
-      </Image>
-    </CloudinaryContext>
+
+      <Image src={this.state.url}/>
+
   </Segment>
-)
+)}
+}
 
 export default PhotoSnap

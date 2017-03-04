@@ -14,7 +14,7 @@ const HomePage = () => (
     <section className="box features">
       <h2 className="major"><span>Discipline Interface Charts</span></h2>
       <div>
-        <Grid stackable stretched>
+        <Grid stackable padded>
         <Grid.Row stretched>
           <Grid.Column width={6}>
             <PhotoSnap />

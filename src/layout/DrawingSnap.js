@@ -1,16 +1,19 @@
 import React from 'react';
-import { Embed, Segment } from 'semantic-ui-react'
-import placeholder from '../images/DCI-100-A-placeholder.png'
+import { Label , Segment} from 'semantic-ui-react'
+import { Video, CloudinaryContext } from 'cloudinary-react'
+import { cloudinaryConfig } from '../database/database'
 
-const fileID = "JwZt34LTOvs"
+const placeHolder = "Drawings/DCI-100-A"
+const publicID = "Drawings/DCI-100-AB"
+const cloudName = cloudinaryConfig.cloud_name
+
 const DrawingSnap = () => (
   <Segment>
-  <h1>Discipline Interface Charts</h1>
-    <Embed
-    id={fileID}
-    icon="right circle arrow"
-    placeholder={placeholder}
-    source="youtube" />
+  <Label attached="top right">Discipline Interface Charts</Label>
+    <CloudinaryContext cloudName={cloudName}>
+      <Video publicId={publicID} poster={{publicId:placeHolder}}
+      width="700" height="500" crop="scale" controls/>
+    </CloudinaryContext>
   </Segment>
 
 
