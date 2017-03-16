@@ -1,6 +1,16 @@
 {
-  "main.js": "static/js/main.9ac40747.js",
-  "main.js.map": "static/js/main.9ac40747.js.map",
+  "main.css": "static/css/main.bfba6bcf.css",
+  "main.css.map": "static/css/main.bfba6bcf.css.map",
+  "main.js": "static/js/main.28e79eac.js",
+  "main.js.map": "static/js/main.28e79eac.js.map",
+  "static/media/background.jpg": "static/media/background.6a979106.jpg",
+  "static/media/drygon_card.svg": "static/media/drygon_card.e122b62f.svg",
+  "static/media/flags.png": "static/media/flags.9c74e172.png",
+  "static/media/icons.eot": "static/media/icons.674f50d2.eot",
+  "static/media/icons.svg": "static/media/icons.912ec66d.svg",
+  "static/media/icons.ttf": "static/media/icons.b06871f2.ttf",
+  "static/media/icons.woff": "static/media/icons.fee66e71.woff",
+  "static/media/icons.woff2": "static/media/icons.af7ae505.woff2",
   "static/media/logo_origin.png": "static/media/logo_origin.29f928e5.png",
   "static/media/title.png": "static/media/title.cfa083e1.png"
 }
