@@ -1,4 +1,4 @@
-@import url("font-awesome.min.css");
+@import url("./font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic|Open+Sans+Condensed:700");
 
 /*
@@ -1738,28 +1738,11 @@
 					padding: 2em 0 2em 0;
 				}
 
-		/* Footer */
-
-			#footer {
-				text-align: center;
-				padding: 4em 0 4em 0;
-			}
-
-				#footer > .row {
-					padding: 2em 0 2em 0;
-				}
 
 			#footer-wrapper h2.major {
 				margin: 0 0 1em 0;
 			}
 
-		/* Copyright */
-
-			#copyright {
-				margin: 0;
-			}
-
-	}
 
 /* Mobile */
 
