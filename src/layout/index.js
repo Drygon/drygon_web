@@ -1,6 +1,9 @@
-import HomePage from './HomePage'
-import NavBar from './NavBar'
+import AboutPage from './AboutPage';
+import DrawingsPage from './DrawingsPage';
+import HomePage from './HomePage';
+
 export {
-  HomePage,
-  NavBar
+ AboutPage,
+ DrawingsPage,
+ HomePage
 }

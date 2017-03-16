@@ -1,14 +1,10 @@
-import React, { Component } from 'react';
-import { NavBar } from './layout'
+import React from 'react';
+import 'semantic-ui-css/semantic.css';
+import { NavBar } from './components';
+import './App.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-      <NavBar />
-      </div>
-    )
-  }
-}
+const App = () => (
+  <NavBar />
+);
 
-export default App
+export default App;

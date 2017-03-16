@@ -1,26 +1,16 @@
-import About from './About'
-import Contact from './Contact'
-import Designs from './Designs'
-import Drygon from './Drygon'
-import Home from './Home'
-import Photos from './Photos'
-import Services from './Services'
-import Stories from './Stories'
-import Training from './Training'
-import RouteWithSubRoutes from './RouteWithSubRoutes'
-import Wonders from './Wonders'
-
-
+import About from './About';
+import DrawingSnap from './DrawingSnap';
+import Footer from './Footer';
+import ImageHeader from './ImageHeader';
+import NavBar from './NavBar';
+import PhotoSnap from './PhotoSnap';
+import QuotationSnap from './QuotationSnap';
 export {
   About,
-  Contact,
-  Designs,
-  Drygon,
-  Home,
-  Photos,
-  RouteWithSubRoutes,
-  Services,
-  Stories,
-  Training,
-  Wonders
+  DrawingSnap,
+  Footer,
+  ImageHeader,
+  NavBar,
+  PhotoSnap,
+  QuotationSnap
 }

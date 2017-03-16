@@ -15,7 +15,6 @@ constructor() {
 componentWillMount() {
   drawingFile.getDownloadURL().then((url) => {
     if (url !== '') {
-      console.log(url)
       this.setState({
         url: url
       })
