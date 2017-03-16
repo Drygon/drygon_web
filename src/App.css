@@ -120,6 +120,7 @@
 		background: #f2f5f3;
 	}
   #footer {
+    text-align: center;
 				padding: 4em 20px 2em 20px;
 			}
 
@@ -128,6 +129,9 @@
 				}
 
 /* Copyright */
+#copyright {
+				margin: 0;
+			}
 
 	#copyright {
 		display: inline-block;
